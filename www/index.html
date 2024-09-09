@@ -48,10 +48,14 @@
     </section> 
 
     <!--looks like a good place for an edge inlcude -->
+    <netlify-edge-include href="https://compose-challenge.netlify.app/partials/add-image-cdn.html"></netlify-edge-include>
 
     <!-- maybe an image will go here...? -->
+    <img src="/.netlify/images/?url=/images/ipad.png" alt="A photo of the Bay Bridge in San Francisco" /> 
+    <img src="/.netlify/images/?url=/images/ipad.png&width=200" alt="A photo of the Bay Bridge in San Francisco" /> 
 
     <!--looks like a good place for another edge inlcude! -->
+    <netlify-edge-include href="https://compose-challenge.netlify.app/partials/add-blob-storage"></netlify-edge-include>
 
 
   </main>
